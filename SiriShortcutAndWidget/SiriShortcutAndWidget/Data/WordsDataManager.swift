@@ -7,7 +7,6 @@
 
 import Foundation
 import Intents
-import os.log
 
 /// A concrete `DataManager` for reading and writing data of type `[String]`.
 public class WordsDataManager: DataManager<[String]> {
