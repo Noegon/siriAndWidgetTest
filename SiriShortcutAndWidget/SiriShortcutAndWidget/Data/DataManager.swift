@@ -5,6 +5,8 @@
 //  Created by astafeev on 11/10/20.
 //
 
+// Taken ready UserDefaults manager solution from WWDC 2019 example: https://developer.apple.com/videos/play/wwdc2019/213/
+
 import Foundation
 import os.log
 

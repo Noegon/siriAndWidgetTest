@@ -8,6 +8,9 @@
 import Foundation
 
 enum Constants {
+    
+    static let AppGroup = "group.com.noegon.SiriShortcutsAndWidgets.Shared"
+    
     static let defaultShortcut = "Add word"
     
     static let widgetKindName = "TestWidget"

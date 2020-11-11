@@ -8,16 +8,14 @@
 import Foundation
 
 extension UserDefaults {
-
-    private static let AppGroup = "group.com.noegon.SiriShortcutsAndWidgets.Shared"
     
     enum StorageKeys: String {
         case words
     }
     
     static let dataSuite = { () -> UserDefaults in
-        guard let dataSuite = UserDefaults(suiteName: AppGroup) else {
-             fatalError("Could not load UserDefaults for app group \(AppGroup)")
+        guard let dataSuite = UserDefaults(suiteName: Constants.AppGroup) else {
+             fatalError("Could not load UserDefaults for app group \(Constants.AppGroup)")
         }
         
         return dataSuite
