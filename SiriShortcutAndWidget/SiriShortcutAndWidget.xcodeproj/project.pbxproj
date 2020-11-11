@@ -59,6 +59,7 @@
 		FFC71F42255B59A800AD030C /* WordsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBD629D255B0925006868EE /* WordsDataManager.swift */; };
 		FFC71F47255B59D400AD030C /* UserDefaults+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBD62A4255B0974006868EE /* UserDefaults+DataSource.swift */; };
 		FFC71F4C255B59E100AD030C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF49281B2559E8E100885715 /* Constants.swift */; };
+		FFC71F53255C2CF300AD030C /* TestWidgetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC71F52255C2CF300AD030C /* TestWidgetManager.swift */; };
 		FFF49155255B4ABA007B94F9 /* ResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFF49154255B4ABA007B94F9 /* ResultView.xib */; };
 /* End PBXBuildFile section */
 
@@ -146,6 +147,7 @@
 		FFB9D28C255A1A270031BF7C /* UITableView+CellRegistration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+CellRegistration.swift"; sourceTree = "<group>"; };
 		FFBD629D255B0925006868EE /* WordsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsDataManager.swift; sourceTree = "<group>"; };
 		FFBD62A4255B0974006868EE /* UserDefaults+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+DataSource.swift"; sourceTree = "<group>"; };
+		FFC71F52255C2CF300AD030C /* TestWidgetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWidgetManager.swift; sourceTree = "<group>"; };
 		FFF49154255B4ABA007B94F9 /* ResultView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -316,6 +318,7 @@
 				FF51EF53255B548900984C1C /* TestWidget.swift */,
 				FF51EF56255B548C00984C1C /* Assets.xcassets */,
 				FF51EF58255B548C00984C1C /* Info.plist */,
+				FFC71F52255C2CF300AD030C /* TestWidgetManager.swift */,
 			);
 			path = TestWidget;
 			sourceTree = "<group>";
@@ -551,6 +554,7 @@
 				FFC71F4C255B59E100AD030C /* Constants.swift in Sources */,
 				FFA17F3C255B5582001BA810 /* TestWidget.swift in Sources */,
 				FFC71F47255B59D400AD030C /* UserDefaults+DataSource.swift in Sources */,
+				FFC71F53255C2CF300AD030C /* TestWidgetManager.swift in Sources */,
 				FFC71F2A255B599D00AD030C /* DataManager.swift in Sources */,
 				FFC71F38255B59A500AD030C /* WordsDataManager.swift in Sources */,
 			);

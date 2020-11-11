@@ -10,6 +10,8 @@ import Foundation
 enum Constants {
     static let defaultShortcut = "Add word"
     
+    static let widgetKindName = "TestWidget"
+    
     enum DBKey {
         static let shortcutPhrase = "shortcutPhrase"
         static let wordSet = "wordSet"

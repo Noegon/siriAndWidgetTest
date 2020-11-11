@@ -7,6 +7,7 @@
 
 import Foundation
 import Intents
+import WidgetKit
 
 /// A concrete `DataManager` for reading and writing data of type `[String]`.
 public class WordsDataManager: DataManager<[String]> {
@@ -43,6 +44,7 @@ extension WordsDataManager {
         
         //  Access to UserDefaults is gated behind a separate access queue.
         writeData()
+        WidgetCenter.shared.reloadTimelines(ofKind: Constants.widgetKindName)
     }
     
     /// Deletes desired word from the data manager.
@@ -57,6 +59,7 @@ extension WordsDataManager {
         
         //  Access to UserDefaults is gated behind a separate access queue.
         writeData()
+        WidgetCenter.shared.reloadTimelines(ofKind: Constants.widgetKindName)
     }
 }
 
