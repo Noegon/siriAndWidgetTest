@@ -1,6 +1,6 @@
 //
 //  ResultViewController.swift
-//  SiriShortcutTestExtensionUI
+//  AddWordUIExtension
 //
 //  Created by astafeev on 11/10/20.
 //
@@ -11,11 +11,11 @@ class ResultViewController: UIViewController {
     
     private let intent: AddWordIntent
 
-    @IBOutlet private weak var resultView: ResultView!
+    @IBOutlet var resultView: ResultView!
 
     init(for addWordIntent: AddWordIntent) {
         intent = addWordIntent
-        super.init(nibName: "ResultViewController", bundle: Bundle(for:  ResultViewController.self))
+        super.init(nibName: "ResultViewController", bundle: Bundle(for: ResultViewController.self))
     }
 
     required init?(coder: NSCoder) {

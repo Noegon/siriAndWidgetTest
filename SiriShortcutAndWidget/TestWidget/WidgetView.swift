@@ -33,7 +33,7 @@ struct WidgetView: View {
                 VStack(alignment: .leading) {
                     Spacer()
                     Text("1. \(data.firstWord)")
-                        .offset(y: -10)
+                        .offset(y: -15)
                         .font(.body)
                         .truncationMode(.tail)
                         .lineLimit(1)
@@ -48,10 +48,10 @@ struct WidgetView: View {
                             .foregroundColor(.white)
                         Spacer()
                     }
-                    .background(Color(.systemPurple).padding(.vertical, -5))
+                    .background(Color(.systemPurple).padding(.vertical, -10))
                     .padding(EdgeInsets(top: 0.0, leading: 0.0, bottom: 0.0, trailing: -10.0))
                     Text("3. \(data.thirdWord)")
-                        .offset(y: 10)
+                        .offset(y: 15)
                         .font(.body)
                         .truncationMode(.tail)
                         .lineLimit(1)

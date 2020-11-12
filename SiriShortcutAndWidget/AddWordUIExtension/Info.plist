@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>SiriShortcutTestExtensionUI</string>
+	<string>AddWordUIExtension</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -27,7 +27,6 @@
 			<key>IntentsSupported</key>
 			<array>
 				<string>AddWordIntent</string>
-				<string>INSendMessageIntent</string>
 			</array>
 		</dict>
 		<key>NSExtensionMainStoryboard</key>
