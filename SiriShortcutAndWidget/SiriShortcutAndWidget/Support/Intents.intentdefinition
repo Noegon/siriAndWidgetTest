@@ -27,6 +27,8 @@
 			<string>Add new word</string>
 			<key>INIntentDescriptionID</key>
 			<string>Xg1fYI</string>
+			<key>INIntentEligibleForWidgets</key>
+			<true/>
 			<key>INIntentLastParameterTag</key>
 			<integer>3</integer>
 			<key>INIntentManagedParameterCombinations</key>
