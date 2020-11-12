@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AddWordKit
 
 class ResultViewController: UIViewController {
     

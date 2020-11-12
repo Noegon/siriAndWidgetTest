@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UITableView {
+public extension UITableView {
 
     /// Dequeue a cell whose identifier is `Cell.identifier`. Traps if the table is unable to deque a cell with the
     /// correct type.

@@ -7,7 +7,7 @@
 
 import WidgetKit
 import SwiftUI
-import os.log
+import AddWordKit
 
 struct Provider: TimelineProvider {
     
@@ -29,16 +29,17 @@ struct Provider: TimelineProvider {
     func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
         var entries: [TestWidgetEntry] = []
 
-        // Generate a timeline consisting of five entries an hour apart, starting from the current date.
         let currentDate = Date()
-        let words = TestWidgetManager.shared.lastWords()
+        let refreshDate = Calendar.current.date(byAdding: .minute, value: 15, to: currentDate)!
+        let words = WordsDataManager().lastWords()
         let entry = TestWidgetEntry(date: currentDate,
                                     firstWord: words[0],
                                     secondWord: words[1],
                                     thirdWord: words[2])
         entries.append(entry)
 
-        let timeline = Timeline(entries: entries, policy: .never)
+        let timeline = Timeline(entries: entries, policy: .after(refreshDate))
+
         completion(timeline)
     }
 }

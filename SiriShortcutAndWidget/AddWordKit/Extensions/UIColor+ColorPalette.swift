@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIColor {
+public extension UIColor {
     @available(iOS 11, *)
     static var mainTextColor: UIColor! {
         return UIColor(named: "MainTextColor")

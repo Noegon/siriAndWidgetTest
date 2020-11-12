@@ -7,6 +7,8 @@
 
 import UIKit
 import Intents
+import WidgetKit
+import AddWordKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -26,6 +28,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 self.window!.makeKeyAndVisible()
             }
         }
+    }
+    
+    func sceneWillEnterForeground(_ scene: UIScene) {
+        // Allows to force widget update after re-opening Application
+        WidgetCenter.shared.reloadTimelines(ofKind: Constants.widgetKindName)
     }
 }
 

@@ -7,13 +7,13 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
 
-    public static var nibName: String {
+    static var nibName: String {
         return self.description().components(separatedBy: ".").dropFirst().joined(separator: ".")
     }
 
-    public static var reuseIdentifier: String {
+    static var reuseIdentifier: String {
         return nibName
     }
 }

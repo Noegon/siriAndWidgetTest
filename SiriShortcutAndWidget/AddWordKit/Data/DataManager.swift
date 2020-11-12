@@ -9,6 +9,8 @@
 
 import Foundation
 import os.log
+import CoreFoundation
+import WidgetKit
 
 /// Provides storage configuration information to `DataManager`
 struct UserDefaultsStorageDescriptor {
@@ -94,7 +96,7 @@ public class DataManager<ManagedDataType: Codable> {
     }
     
     /// Writes the data to `UserDefaults`.
-    func writeData() {
+    func writeData(compleationHandler: (() -> ())? = nil) {
         userDefaultsAccessQueue.async {
             do {
                 let encoder = PropertyListEncoder()
@@ -106,6 +108,9 @@ public class DataManager<ManagedDataType: Codable> {
                 
                 self.notifyClientsDataChanged()
                 
+                WidgetCenter.shared.reloadTimelines(ofKind: Constants.widgetKindName)
+                
+                compleationHandler?()
             } catch let error as NSError {
                 os_log("Could not encode data %@", log: OSLog.default, type: .error, error)
             }

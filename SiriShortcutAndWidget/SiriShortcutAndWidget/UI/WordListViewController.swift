@@ -7,6 +7,7 @@
 
 import UIKit
 import IntentsUI
+import AddWordKit
 
 /// Implemented as usual MVC (or MVVM with minimal functionality) because current App is very tiny and Controller takes less than 200 rows
 final class WordListViewController: UIViewController {

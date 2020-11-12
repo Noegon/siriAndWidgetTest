@@ -7,28 +7,28 @@
 
 import Foundation
 
-enum Constants {
+public enum Constants {
     
-    static let AppGroup = "group.com.noegon.SiriShortcutsAndWidgets.Shared"
+    public static let AppGroup = "group.com.noegon.SiriShortcutsAndWidgets.Shared"
     
-    static let defaultShortcut = "Add word"
+    public static let defaultShortcut = "Add word"
     
-    static let widgetKindName = "TestWidget"
+    public static let widgetKindName = "TestWidget"
     
-    enum DBKey {
-        static let shortcutPhrase = "shortcutPhrase"
-        static let wordSet = "wordSet"
+    public enum DBKey {
+        public static let shortcutPhrase = "shortcutPhrase"
+        public static let wordSet = "wordSet"
         
-        enum DBNotificationKey {
-            static let dataChanged = "dataChanged"
+        public enum DBNotificationKey {
+            public static let dataChanged = "dataChanged"
         }
     }
     
-    enum Storyboard {
-        static let Main = "Main"
+    public enum Storyboard {
+        public static let Main = "Main"
     }
     
-    enum ViewController {
-        static let WordListViewController = "WordListViewController"
+    public enum ViewController {
+        public static let WordListViewController = "WordListViewController"
     }
 }

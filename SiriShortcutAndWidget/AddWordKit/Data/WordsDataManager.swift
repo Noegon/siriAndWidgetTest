@@ -36,20 +36,18 @@ extension WordsDataManager {
     }
     
     /// Stores the order in the data manager.
-    public func addWord(_ word: String) {
+    public func addWord(_ word: String, compleationHandler: (() -> ())? = nil) {
         //  Access to `managedDataBackingInstance` is only valid on `dataAccessQueue`.
         dataAccessQueue.sync {
             managedData.insert(word, at: 0)
         }
         
         //  Access to UserDefaults is gated behind a separate access queue.
-        writeData()
-        // Tell widget that it is time to renew itself
-        WidgetCenter.shared.reloadTimelines(ofKind: Constants.widgetKindName)
+        writeData(compleationHandler: compleationHandler)
     }
     
     /// Deletes desired word from the data manager.
-    public func removeWord(_ word: String) {
+    public func removeWord(_ word: String, compleationHandler: (() -> ())? = nil) {
         // Access to `managedDataBackingInstance` is only valid on `dataAccessQueue`.
         // Filtering data to get all but unwanted entity
         dataAccessQueue.sync {
@@ -59,9 +57,17 @@ extension WordsDataManager {
         }
         
         //  Access to UserDefaults is gated behind a separate access queue.
-        writeData()
-        // Tell widget that it is time to renew itself
-        WidgetCenter.shared.reloadTimelines(ofKind: Constants.widgetKindName)
+        writeData(compleationHandler: compleationHandler)
+    }
+    
+    public func lastWords(amount: Int = 3) -> [String] {
+        var wordArray = words
+        if amount > wordArray.count {
+            let stubStrings = Array<String>(repeating: "--", count: amount - wordArray.count)
+            wordArray.append(contentsOf: stubStrings)
+        }
+        
+        return Array<String>(wordArray.dropLast(wordArray.count - amount))
     }
 }
 

@@ -59,21 +59,12 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FFA17F36255B5582001BA810"
-            BuildableName = "TestWidgetExtension.appex"
-            BlueprintName = "TestWidgetExtension"
-            ReferencedContainer = "container:SiriShortcutAndWidget.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
             BlueprintIdentifier = "FF49278625599F2200885715"
             BuildableName = "SiriShortcutAndWidget.app"
             BlueprintName = "SiriShortcutAndWidget"
             ReferencedContainer = "container:SiriShortcutAndWidget.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "_XCWidgetKind"

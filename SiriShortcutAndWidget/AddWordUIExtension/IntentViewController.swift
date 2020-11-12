@@ -6,6 +6,7 @@
 //
 
 import IntentsUI
+import AddWordKit
 
 class IntentViewController: UIViewController, INUIHostedViewControlling {
         

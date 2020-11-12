@@ -6,6 +6,7 @@
 //
 
 import Intents
+import AddWordKit
 
 class IntentHandler: INExtension {
     override func handler(for intent: INIntent) -> Any {

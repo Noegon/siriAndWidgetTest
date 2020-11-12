@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "1220"
-   wasCreatedForAppExtension = "YES"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FF4927CA2559C7A500885715"
-               BuildableName = "SiriShortcutTestExtension.appex"
-               BlueprintName = "SiriShortcutTestExtension"
-               ReferencedContainer = "container:SiriShortcutAndWidget.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FF49278625599F2200885715"
-               BuildableName = "SiriShortcutAndWidget.app"
-               BlueprintName = "SiriShortcutAndWidget"
+               BlueprintIdentifier = "FF57E570255DB7AA00F37FC7"
+               BuildableName = "AddWordKit.framework"
+               BlueprintName = "AddWordKit"
                ReferencedContainer = "container:SiriShortcutAndWidget.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -55,34 +40,22 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FF49278625599F2200885715"
-            BuildableName = "SiriShortcutAndWidget.app"
-            BlueprintName = "SiriShortcutAndWidget"
-            ReferencedContainer = "container:SiriShortcutAndWidget.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      debugDocumentVersioning = "YES"
-      launchAutomaticallySubstyle = "2">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      debugDocumentVersioning = "YES">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FF49278625599F2200885715"
-            BuildableName = "SiriShortcutAndWidget.app"
-            BlueprintName = "SiriShortcutAndWidget"
+            BlueprintIdentifier = "FF57E570255DB7AA00F37FC7"
+            BuildableName = "AddWordKit.framework"
+            BlueprintName = "AddWordKit"
             ReferencedContainer = "container:SiriShortcutAndWidget.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
