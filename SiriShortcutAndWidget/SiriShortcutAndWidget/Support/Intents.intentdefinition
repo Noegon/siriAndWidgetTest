@@ -9,9 +9,9 @@
 	<key>INIntentDefinitionNamespace</key>
 	<string>d7893I</string>
 	<key>INIntentDefinitionSystemVersion</key>
-	<string>19H15</string>
+	<string>20C69</string>
 	<key>INIntentDefinitionToolsBuildVersion</key>
-	<string>12B5044c</string>
+	<string>12B45b</string>
 	<key>INIntentDefinitionToolsVersion</key>
 	<string>12.2</string>
 	<key>INIntents</key>
@@ -28,10 +28,10 @@
 			<key>INIntentDescriptionID</key>
 			<string>Xg1fYI</string>
 			<key>INIntentLastParameterTag</key>
-			<integer>3</integer>
+			<integer>4</integer>
 			<key>INIntentManagedParameterCombinations</key>
 			<dict>
-				<key>word</key>
+				<key>word,wordFromList</key>
 				<dict>
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
@@ -55,6 +55,15 @@
 					<string>Add ${word} into the list</string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>fEXWcM</string>
+				</dict>
+				<key>wordFromList,word</key>
+				<dict>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Add ${word} into the list with ${wordFromList}</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>a74vg4</string>
 				</dict>
 			</dict>
 			<key>INIntentParameters</key>
@@ -102,6 +111,99 @@
 					<integer>3</integer>
 					<key>INIntentParameterType</key>
 					<string>String</string>
+				</dict>
+				<dict>
+					<key>INIntentParameterConfigurable</key>
+					<true/>
+					<key>INIntentParameterCustomDisambiguation</key>
+					<true/>
+					<key>INIntentParameterDisplayName</key>
+					<string>Word From List</string>
+					<key>INIntentParameterDisplayNameID</key>
+					<string>2HLFpn</string>
+					<key>INIntentParameterDisplayPriority</key>
+					<integer>2</integer>
+					<key>INIntentParameterMetadata</key>
+					<dict>
+						<key>INIntentParameterMetadataCapitalization</key>
+						<string>Sentences</string>
+						<key>INIntentParameterMetadataDefaultValueID</key>
+						<string>r9E3AL</string>
+					</dict>
+					<key>INIntentParameterName</key>
+					<string>wordFromList</string>
+					<key>INIntentParameterPromptDialogs</key>
+					<array>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Configuration</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>ha-ha</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>7HqjnP</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Primary</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>There is no word ${wordFromList} in the list. We have ${count} options. Please, choose one.</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>2XNude</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationIntroduction</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Just to confirm, you wanted ‘${wordFromList}’?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>f4tSFr</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Confirmation</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Which one?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>2AXgBM</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationSelection</string>
+						</dict>
+					</array>
+					<key>INIntentParameterSupportsDynamicEnumeration</key>
+					<true/>
+					<key>INIntentParameterSupportsResolution</key>
+					<true/>
+					<key>INIntentParameterSupportsSearch</key>
+					<true/>
+					<key>INIntentParameterTag</key>
+					<integer>4</integer>
+					<key>INIntentParameterType</key>
+					<string>String</string>
+					<key>INIntentParameterUnsupportedReasons</key>
+					<array>
+						<dict>
+							<key>INIntentParameterUnsupportedReasonCode</key>
+							<string>noListWord</string>
+							<key>INIntentParameterUnsupportedReasonCustom</key>
+							<true/>
+							<key>INIntentParameterUnsupportedReasonFormatString</key>
+							<string>There is no word ${wordFromList} in the list. Please retry.</string>
+							<key>INIntentParameterUnsupportedReasonFormatStringID</key>
+							<string>9eBjGj</string>
+						</dict>
+					</array>
 				</dict>
 			</array>
 			<key>INIntentResponse</key>

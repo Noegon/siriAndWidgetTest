@@ -26,7 +26,7 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        resultView.addedWordLabel.text = "\(intent.word ?? "unknown")"
+        resultView.addedWordLabel.text = "\((intent.word ?? "unknown") + "-" + (intent.wordFromList ?? "unknown"))"
     }
 }
 

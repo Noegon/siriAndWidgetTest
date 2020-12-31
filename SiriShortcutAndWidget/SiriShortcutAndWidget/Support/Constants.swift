@@ -15,6 +15,12 @@ public enum Constants {
     
     public static let widgetKindName = "TestWidget"
     
+    public static let predefinedWordList = ["Apple", "Behemoth", "Cooler", "Drowned maid", "Equity",
+                                            "Falcon", "Giant", "Herecy", "Ice", "Jorney", "Khung-Fu",
+                                            "Lammoth", "Mammoth", "Nostromo", "Pineapple", "Quarter",
+                                            "Rogue", "Sticker", "Troubleshooting", "Universum", "Valor",
+                                            "Woodpecker", "Xenophobia", "Yippiee-Yaee", "Zanzibarh"]
+    
     public enum DBKey {
         public static let shortcutPhrase = "shortcutPhrase"
         public static let wordSet = "wordSet"
