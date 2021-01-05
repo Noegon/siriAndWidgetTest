@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF15A97F25A3624D00311721 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF51EF4E255B548900984C1C /* WidgetKit.framework */; };
 		FF1ABE9B255C736B002F63A7 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1ABE9A255C736B002F63A7 /* WidgetView.swift */; };
 		FF1ABEA0255C748E002F63A7 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1ABE9A255C736B002F63A7 /* WidgetView.swift */; };
 		FF49278B25599F2200885715 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF49278A25599F2200885715 /* AppDelegate.swift */; };
@@ -20,8 +21,6 @@
 		FF4928852559FAEA00885715 /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4928842559FAEA00885715 /* WordCell.swift */; };
 		FF4928962559FC8400885715 /* AddWordIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4927B52559B8A300885715 /* AddWordIntentHandler.swift */; };
 		FF57E575255DB7AA00F37FC7 /* AddWordKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FF57E573255DB7AA00F37FC7 /* AddWordKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF57E578255DB7AA00F37FC7 /* AddWordKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF57E571255DB7AA00F37FC7 /* AddWordKit.framework */; };
-		FF57E579255DB7AA00F37FC7 /* AddWordKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF57E571255DB7AA00F37FC7 /* AddWordKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF57E582255DB7F800F37FC7 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = FF49279F2559A05100885715 /* Intents.intentdefinition */; };
 		FF57E587255DB7FE00F37FC7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF49281B2559E8E100885715 /* Constants.swift */; };
 		FF57E58C255DB80500F37FC7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4928282559E99200885715 /* DataManager.swift */; };
@@ -39,9 +38,10 @@
 		FF57E642255DBD2600F37FC7 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = FF49279F2559A05100885715 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
 		FF57E643255DBD2600F37FC7 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = FF49279F2559A05100885715 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
 		FF57E648255DBD2700F37FC7 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = FF49279F2559A05100885715 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
-		FFA17F38255B5582001BA810 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF51EF4E255B548900984C1C /* WidgetKit.framework */; };
 		FFA17F39255B5582001BA810 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF51EF50255B548900984C1C /* SwiftUI.framework */; };
 		FFA17F42255B5584001BA810 /* TestWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FFA17F37255B5582001BA810 /* TestWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FFB7F1C425A40817002AED30 /* AddWordKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF57E571255DB7AA00F37FC7 /* AddWordKit.framework */; };
+		FFB7F1C525A40817002AED30 /* AddWordKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF57E571255DB7AA00F37FC7 /* AddWordKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FFB9D246255A0C430031BF7C /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB9D245255A0C430031BF7C /* ColorAssets.xcassets */; };
 		FFB9D287255A19A70031BF7C /* WordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFB9D286255A19A70031BF7C /* WordCell.xib */; };
 		FFEF4B61255CA8E900754B40 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4927B02559AB0C00885715 /* IntentsUI.framework */; };
@@ -98,13 +98,13 @@
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF57E57D255DB7AA00F37FC7 /* Embed Frameworks */ = {
+		FFB7F1C625A40817002AED30 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FF57E579255DB7AA00F37FC7 /* AddWordKit.framework in Embed Frameworks */,
+				FFB7F1C525A40817002AED30 /* AddWordKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,7 +165,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF57E578255DB7AA00F37FC7 /* AddWordKit.framework in Frameworks */,
+				FFB7F1C425A40817002AED30 /* AddWordKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,7 +190,7 @@
 			files = (
 				FF57E600255DB9B900F37FC7 /* AddWordKit.framework in Frameworks */,
 				FFA17F39255B5582001BA810 /* SwiftUI.framework in Frameworks */,
-				FFA17F38255B5582001BA810 /* WidgetKit.framework in Frameworks */,
+				FF15A97F25A3624D00311721 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +376,7 @@
 				FF49278425599F2200885715 /* Frameworks */,
 				FF49278525599F2200885715 /* Resources */,
 				FF4927E92559C7A600885715 /* Embed App Extensions */,
-				FF57E57D255DB7AA00F37FC7 /* Embed Frameworks */,
+				FFB7F1C625A40817002AED30 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -718,7 +718,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -773,7 +773,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -892,6 +892,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.noegon.SiriShortcutsAndWidgets.AddWordKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -922,6 +923,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.noegon.SiriShortcutsAndWidgets.AddWordKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

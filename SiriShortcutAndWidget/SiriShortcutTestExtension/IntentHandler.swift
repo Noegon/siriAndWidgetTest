@@ -10,9 +10,12 @@ import AddWordKit
 
 class IntentHandler: INExtension {
     override func handler(for intent: INIntent) -> Any {
-        guard intent is AddWordIntent else {
+        // Add as many intent types as you need
+        switch intent {
+        case is AddWordIntent:
+            return AddWordIntentHandler()
+        default:
             fatalError("Unhandled intent type: \(intent)")
         }
-        return AddWordIntentHandler()
     }
 }

@@ -42,6 +42,7 @@ final class WordListViewController: UIViewController {
     private func addSiriButton(to view: UIView) {
         
         let button = INUIAddVoiceShortcutButton(style: .whiteOutline)
+        intent.groupingParameterType = .noParameter
         button.shortcut = INShortcut(intent: intent)
         button.delegate = self
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -159,6 +160,7 @@ private extension WordListViewController {
     var intent: AddWordIntent {
         let testIntent = AddWordIntent()
         testIntent.word = nil
+        testIntent.groupingParameterType = .noParameter
         testIntent.suggestedInvocationPhrase = Constants.defaultShortcut
         return testIntent
     }

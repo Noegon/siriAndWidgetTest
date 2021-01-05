@@ -21,20 +21,6 @@
                ReferencedContainer = "container:SiriShortcutAndWidget.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FF49278625599F2200885715"
-               BuildableName = "SiriShortcutAndWidget.app"
-               BlueprintName = "SiriShortcutAndWidget"
-               ReferencedContainer = "container:SiriShortcutAndWidget.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -55,16 +41,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FF49278625599F2200885715"
-            BuildableName = "SiriShortcutAndWidget.app"
-            BlueprintName = "SiriShortcutAndWidget"
-            ReferencedContainer = "container:SiriShortcutAndWidget.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -73,16 +49,15 @@
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES"
       launchAutomaticallySubstyle = "2">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FF49278625599F2200885715"
-            BuildableName = "SiriShortcutAndWidget.app"
-            BlueprintName = "SiriShortcutAndWidget"
+            BlueprintIdentifier = "FFEF4B5F255CA8E900754B40"
+            BuildableName = "AddWordUIExtension.appex"
+            BlueprintName = "AddWordUIExtension"
             ReferencedContainer = "container:SiriShortcutAndWidget.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

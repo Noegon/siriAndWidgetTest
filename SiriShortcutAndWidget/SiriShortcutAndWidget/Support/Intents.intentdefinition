@@ -3,7 +3,154 @@
 <plist version="1.0">
 <dict>
 	<key>INEnums</key>
-	<array/>
+	<array>
+		<dict>
+			<key>INEnumDisplayName</key>
+			<string>Grouping Parameter Type</string>
+			<key>INEnumDisplayNameID</key>
+			<string>YgXV6S</string>
+			<key>INEnumGeneratesHeader</key>
+			<true/>
+			<key>INEnumName</key>
+			<string>GroupingParameterType</string>
+			<key>INEnumType</key>
+			<string>Regular</string>
+			<key>INEnumValues</key>
+			<array>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>unknown</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>myx1Fz</string>
+					<key>INEnumValueName</key>
+					<string>unknown</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>tag</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>7b1IMu</string>
+					<key>INEnumValueIndex</key>
+					<integer>1</integer>
+					<key>INEnumValueName</key>
+					<string>tag</string>
+					<key>INEnumValuePronunciationHint</key>
+					<string>Tag</string>
+					<key>INEnumValuePronunciationHintID</key>
+					<string>zVLtaH</string>
+					<key>INEnumValueSynonyms</key>
+					<array>
+						<dict>
+							<key>INEnumValueSynonymSynonym</key>
+							<string>Tag</string>
+							<key>INEnumValueSynonymSynonymID</key>
+							<string>pjHRcA</string>
+						</dict>
+						<dict>
+							<key>INEnumValueSynonymSynonym</key>
+							<string>Tags</string>
+							<key>INEnumValueSynonymSynonymID</key>
+							<string>ziloV0</string>
+						</dict>
+						<dict>
+							<key>INEnumValueSynonymSynonym</key>
+							<string>Tagged</string>
+							<key>INEnumValueSynonymSynonymID</key>
+							<string>HvdrGT</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>group</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>1e1XXz</string>
+					<key>INEnumValueIndex</key>
+					<integer>2</integer>
+					<key>INEnumValueName</key>
+					<string>group</string>
+					<key>INEnumValuePronunciationHint</key>
+					<string>Group</string>
+					<key>INEnumValuePronunciationHintID</key>
+					<string>bLor9W</string>
+					<key>INEnumValueSynonyms</key>
+					<array>
+						<dict>
+							<key>INEnumValueSynonymSynonym</key>
+							<string>Group</string>
+							<key>INEnumValueSynonymSynonymID</key>
+							<string>stWABn</string>
+						</dict>
+						<dict>
+							<key>INEnumValueSynonymSynonym</key>
+							<string>Groups</string>
+							<key>INEnumValueSynonymSynonymID</key>
+							<string>5T6MMS</string>
+						</dict>
+						<dict>
+							<key>INEnumValueSynonymSynonym</key>
+							<string>Grouped</string>
+							<key>INEnumValueSynonymSynonymID</key>
+							<string>ADnp2L</string>
+						</dict>
+						<dict>
+							<key>INEnumValueSynonymSynonym</key>
+							<string>Grouping</string>
+							<key>INEnumValueSynonymSynonymID</key>
+							<string>WoQDsY</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>no parameter</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>faJSPe</string>
+					<key>INEnumValueIndex</key>
+					<integer>3</integer>
+					<key>INEnumValueName</key>
+					<string>noParameter</string>
+					<key>INEnumValuePronunciationHint</key>
+					<string>No parameter</string>
+					<key>INEnumValuePronunciationHintID</key>
+					<string>KHgyb1</string>
+					<key>INEnumValueSynonyms</key>
+					<array>
+						<dict>
+							<key>INEnumValueSynonymSynonym</key>
+							<string>No</string>
+							<key>INEnumValueSynonymSynonymID</key>
+							<string>LaohWX</string>
+						</dict>
+						<dict>
+							<key>INEnumValueSynonymSynonym</key>
+							<string>Skip</string>
+							<key>INEnumValueSynonymSynonymID</key>
+							<string>GXJQxS</string>
+						</dict>
+						<dict>
+							<key>INEnumValueSynonymSynonym</key>
+							<string>Empty</string>
+							<key>INEnumValueSynonymSynonymID</key>
+							<string>5VTH4K</string>
+						</dict>
+						<dict>
+							<key>INEnumValueSynonymSynonym</key>
+							<string>Next</string>
+							<key>INEnumValueSynonymSynonymID</key>
+							<string>ERUQQ3</string>
+						</dict>
+						<dict>
+							<key>INEnumValueSynonymSynonym</key>
+							<string>Without parameter</string>
+							<key>INEnumValueSynonymSynonymID</key>
+							<string>8gRw8A</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
 	<key>INIntentDefinitionModelVersion</key>
 	<string>1.2</string>
 	<key>INIntentDefinitionNamespace</key>
@@ -11,9 +158,9 @@
 	<key>INIntentDefinitionSystemVersion</key>
 	<string>20C69</string>
 	<key>INIntentDefinitionToolsBuildVersion</key>
-	<string>12B45b</string>
+	<string>12C33</string>
 	<key>INIntentDefinitionToolsVersion</key>
-	<string>12.2</string>
+	<string>12.3</string>
 	<key>INIntents</key>
 	<array>
 		<dict>
@@ -28,17 +175,52 @@
 			<key>INIntentDescriptionID</key>
 			<string>Xg1fYI</string>
 			<key>INIntentLastParameterTag</key>
-			<integer>4</integer>
+			<integer>10</integer>
 			<key>INIntentManagedParameterCombinations</key>
 			<dict>
-				<key>word,wordFromList</key>
+				<key>word,groupingParameterType</key>
 				<dict>
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
-					<string>Add ${word} into the list</string>
+					<string>Add ${word} into the list by ${groupingParameterType}</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>2DN6f2</string>
+					<key>INIntentParameterCombinationUpdatesLinked</key>
+					<true/>
+				</dict>
+				<key>word,groupingParameterType,groupingParameter,wordFromGroupedList</key>
+				<dict>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Add ${word} into the list by ${groupingParameterType} ${groupingParameter} with ${wordFromGroupedList}</string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>HpSJcv</string>
+					<key>INIntentParameterCombinationUpdatesLinked</key>
+					<true/>
+				</dict>
+				<key>word,groupingParameterType,taggedParameter,wordFromTaggedList</key>
+				<dict>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Add ${word} into the list by ${groupingParameterType} ${taggedParameter} with ${wordFromTaggedList}</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>69GhOl</string>
+					<key>INIntentParameterCombinationUpdatesLinked</key>
+					<true/>
+				</dict>
+				<key>word,groupingParameterType,wordFromList</key>
+				<dict>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Add ${word} into the list by ${groupingParameterType} with ${wordFromList}</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>bZ1ARO</string>
+					<key>INIntentParameterCombinationUpdatesLinked</key>
+					<true/>
 				</dict>
 			</dict>
 			<key>INIntentName</key>
@@ -55,6 +237,64 @@
 					<string>Add ${word} into the list</string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>fEXWcM</string>
+				</dict>
+				<key>word,groupingParameterType</key>
+				<dict>
+					<key>INIntentParameterCombinationIsLinked</key>
+					<true/>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Add ${word} into the list by ${groupingParameterType}</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>cEl9Vm</string>
+				</dict>
+				<key>word,groupingParameterType,groupingParameter,wordFromGroupedList</key>
+				<dict>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Add ${word} into the list by ${groupingParameterType} ${groupingParameter} with ${wordFromGroupedList}</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>UTSKsl</string>
+				</dict>
+				<key>word,groupingParameterType,taggedParameter,wordFromTaggedList</key>
+				<dict>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Add ${word} into the list by ${groupingParameterType} ${taggedParameter} with ${wordFromTaggedList}</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>olfxkM</string>
+				</dict>
+				<key>word,groupingParameterType,wordFromList</key>
+				<dict>
+					<key>INIntentParameterCombinationIsLinked</key>
+					<true/>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Add ${word} into the list by ${groupingParameterType} with ${wordFromList}</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>949XM0</string>
+				</dict>
+				<key>word,wordFromList,groupingParameterType,taggedParameter</key>
+				<dict>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Add ${word} into the list by ${groupingParameterType} ${taggedParameter} with ${wordFromList}</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>iuM5hQ</string>
+				</dict>
+				<key>wordFromList,groupingParameter,groupingParameterType,word</key>
+				<dict>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Add ${word} into the list by ${groupingParameterType} ${groupingParameter} with ${wordFromList}</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>Di0EzX</string>
 				</dict>
 				<key>wordFromList,word</key>
 				<dict>
@@ -118,11 +358,246 @@
 					<key>INIntentParameterCustomDisambiguation</key>
 					<true/>
 					<key>INIntentParameterDisplayName</key>
+					<string>Grouping Parameter Type</string>
+					<key>INIntentParameterDisplayNameID</key>
+					<string>ugLuYD</string>
+					<key>INIntentParameterDisplayPriority</key>
+					<integer>2</integer>
+					<key>INIntentParameterEnumType</key>
+					<string>GroupingParameterType</string>
+					<key>INIntentParameterEnumTypeNamespace</key>
+					<string>d7893I</string>
+					<key>INIntentParameterName</key>
+					<string>groupingParameterType</string>
+					<key>INIntentParameterPromptDialogs</key>
+					<array>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Configuration</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Primary</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>There is no ${groupingParameterType} in the list. We have ${groupingParameterType} options. Please, choose one.</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>eyJzy0</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationIntroduction</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Just to confirm, you wanted ‘${groupingParameterType}’?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>qs1flq</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Confirmation</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Which grouping parameter do you want to use?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>VO1S8g</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationSelection</string>
+						</dict>
+					</array>
+					<key>INIntentParameterSupportsResolution</key>
+					<true/>
+					<key>INIntentParameterTag</key>
+					<integer>6</integer>
+					<key>INIntentParameterType</key>
+					<string>Integer</string>
+				</dict>
+				<dict>
+					<key>INIntentParameterConfigurable</key>
+					<true/>
+					<key>INIntentParameterCustomDisambiguation</key>
+					<true/>
+					<key>INIntentParameterDisplayName</key>
+					<string>Grouping Parameter</string>
+					<key>INIntentParameterDisplayNameID</key>
+					<string>csDbV9</string>
+					<key>INIntentParameterDisplayPriority</key>
+					<integer>3</integer>
+					<key>INIntentParameterMetadata</key>
+					<dict>
+						<key>INIntentParameterMetadataCapitalization</key>
+						<string>Sentences</string>
+						<key>INIntentParameterMetadataDefaultValueID</key>
+						<string>AdXoaU</string>
+					</dict>
+					<key>INIntentParameterName</key>
+					<string>groupingParameter</string>
+					<key>INIntentParameterPromptDialogs</key>
+					<array>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Configuration</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Primary</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>There is no group ${groupingParameter} in the list. We have ${count} options. Please, choose one.</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>mbKGhM</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationIntroduction</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Just to confirm, you wanted ‘${groupingParameter}’?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>7FxkWm</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Confirmation</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Select group:</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>RR4KL7</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationSelection</string>
+						</dict>
+					</array>
+					<key>INIntentParameterRelationship</key>
+					<dict>
+						<key>INIntentParameterRelationshipParentName</key>
+						<string>groupingParameterType</string>
+						<key>INIntentParameterRelationshipPredicateName</key>
+						<string>EnumHasExactValue</string>
+						<key>INIntentParameterRelationshipPredicateValue</key>
+						<string>group</string>
+					</dict>
+					<key>INIntentParameterSupportsDynamicEnumeration</key>
+					<true/>
+					<key>INIntentParameterSupportsResolution</key>
+					<true/>
+					<key>INIntentParameterTag</key>
+					<integer>7</integer>
+					<key>INIntentParameterType</key>
+					<string>String</string>
+				</dict>
+				<dict>
+					<key>INIntentParameterConfigurable</key>
+					<true/>
+					<key>INIntentParameterCustomDisambiguation</key>
+					<true/>
+					<key>INIntentParameterDisplayName</key>
+					<string>Tagged Parameter</string>
+					<key>INIntentParameterDisplayNameID</key>
+					<string>goKFwM</string>
+					<key>INIntentParameterDisplayPriority</key>
+					<integer>4</integer>
+					<key>INIntentParameterMetadata</key>
+					<dict>
+						<key>INIntentParameterMetadataCapitalization</key>
+						<string>Sentences</string>
+						<key>INIntentParameterMetadataDefaultValueID</key>
+						<string>V8DXgI</string>
+					</dict>
+					<key>INIntentParameterName</key>
+					<string>taggedParameter</string>
+					<key>INIntentParameterPromptDialogs</key>
+					<array>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Configuration</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Primary</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>There is no tag ${taggedParameter} in the list. We have ${count} options. Please, choose one.</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>6DXdyN</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationIntroduction</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Just to confirm, you wanted ‘${taggedParameter}’?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>LmtGOS</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Confirmation</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Select tag:</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>fe7Avj</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationSelection</string>
+						</dict>
+					</array>
+					<key>INIntentParameterRelationship</key>
+					<dict>
+						<key>INIntentParameterRelationshipParentName</key>
+						<string>groupingParameterType</string>
+						<key>INIntentParameterRelationshipPredicateName</key>
+						<string>EnumHasExactValue</string>
+						<key>INIntentParameterRelationshipPredicateValue</key>
+						<string>tag</string>
+					</dict>
+					<key>INIntentParameterSupportsDynamicEnumeration</key>
+					<true/>
+					<key>INIntentParameterSupportsResolution</key>
+					<true/>
+					<key>INIntentParameterTag</key>
+					<integer>8</integer>
+					<key>INIntentParameterType</key>
+					<string>String</string>
+				</dict>
+				<dict>
+					<key>INIntentParameterConfigurable</key>
+					<true/>
+					<key>INIntentParameterCustomDisambiguation</key>
+					<true/>
+					<key>INIntentParameterDisplayName</key>
 					<string>Word From List</string>
 					<key>INIntentParameterDisplayNameID</key>
 					<string>2HLFpn</string>
 					<key>INIntentParameterDisplayPriority</key>
-					<integer>2</integer>
+					<integer>5</integer>
 					<key>INIntentParameterMetadata</key>
 					<dict>
 						<key>INIntentParameterMetadataCapitalization</key>
@@ -144,9 +619,9 @@
 							<key>INIntentParameterPromptDialogCustom</key>
 							<true/>
 							<key>INIntentParameterPromptDialogFormatString</key>
-							<string>ha-ha</string>
+							<string>Please select word from the list:</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
-							<string>7HqjnP</string>
+							<string>Zkbpzz</string>
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Primary</string>
 						</dict>
@@ -174,13 +649,22 @@
 							<key>INIntentParameterPromptDialogCustom</key>
 							<true/>
 							<key>INIntentParameterPromptDialogFormatString</key>
-							<string>Which one?</string>
+							<string>Please select word from the list:</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
 							<string>2AXgBM</string>
 							<key>INIntentParameterPromptDialogType</key>
 							<string>DisambiguationSelection</string>
 						</dict>
 					</array>
+					<key>INIntentParameterRelationship</key>
+					<dict>
+						<key>INIntentParameterRelationshipParentName</key>
+						<string>groupingParameterType</string>
+						<key>INIntentParameterRelationshipPredicateName</key>
+						<string>EnumHasExactValue</string>
+						<key>INIntentParameterRelationshipPredicateValue</key>
+						<string>noParameter</string>
+					</dict>
 					<key>INIntentParameterSupportsDynamicEnumeration</key>
 					<true/>
 					<key>INIntentParameterSupportsResolution</key>
@@ -191,19 +675,184 @@
 					<integer>4</integer>
 					<key>INIntentParameterType</key>
 					<string>String</string>
-					<key>INIntentParameterUnsupportedReasons</key>
+				</dict>
+				<dict>
+					<key>INIntentParameterConfigurable</key>
+					<true/>
+					<key>INIntentParameterCustomDisambiguation</key>
+					<true/>
+					<key>INIntentParameterDisplayName</key>
+					<string>Word From Tagged List</string>
+					<key>INIntentParameterDisplayNameID</key>
+					<string>D9bmTk</string>
+					<key>INIntentParameterDisplayPriority</key>
+					<integer>6</integer>
+					<key>INIntentParameterMetadata</key>
+					<dict>
+						<key>INIntentParameterMetadataCapitalization</key>
+						<string>Sentences</string>
+						<key>INIntentParameterMetadataDefaultValueID</key>
+						<string>RIUoxM</string>
+					</dict>
+					<key>INIntentParameterName</key>
+					<string>wordFromTaggedList</string>
+					<key>INIntentParameterPromptDialogs</key>
 					<array>
 						<dict>
-							<key>INIntentParameterUnsupportedReasonCode</key>
-							<string>noListWord</string>
-							<key>INIntentParameterUnsupportedReasonCustom</key>
+							<key>INIntentParameterPromptDialogCustom</key>
 							<true/>
-							<key>INIntentParameterUnsupportedReasonFormatString</key>
-							<string>There is no word ${wordFromList} in the list. Please retry.</string>
-							<key>INIntentParameterUnsupportedReasonFormatStringID</key>
-							<string>9eBjGj</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Configuration</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Please select word from the list:</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>dz233i</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Primary</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>There is no word ${wordFromList} in the list. We have ${count} options. Please, choose one.</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>u5a0vW</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationIntroduction</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Just to confirm, you wanted ‘${wordFromTaggedList}’?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>6BMhhg</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Confirmation</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Please select word from the list:</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>3ePMpU</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationSelection</string>
 						</dict>
 					</array>
+					<key>INIntentParameterRelationship</key>
+					<dict>
+						<key>INIntentParameterRelationshipParentName</key>
+						<string>groupingParameterType</string>
+						<key>INIntentParameterRelationshipPredicateName</key>
+						<string>EnumHasExactValue</string>
+						<key>INIntentParameterRelationshipPredicateValue</key>
+						<string>tag</string>
+					</dict>
+					<key>INIntentParameterSupportsDynamicEnumeration</key>
+					<true/>
+					<key>INIntentParameterSupportsResolution</key>
+					<true/>
+					<key>INIntentParameterSupportsSearch</key>
+					<true/>
+					<key>INIntentParameterTag</key>
+					<integer>9</integer>
+					<key>INIntentParameterType</key>
+					<string>String</string>
+				</dict>
+				<dict>
+					<key>INIntentParameterConfigurable</key>
+					<true/>
+					<key>INIntentParameterCustomDisambiguation</key>
+					<true/>
+					<key>INIntentParameterDisplayName</key>
+					<string>Word From Grouped List</string>
+					<key>INIntentParameterDisplayNameID</key>
+					<string>p4zTeI</string>
+					<key>INIntentParameterDisplayPriority</key>
+					<integer>7</integer>
+					<key>INIntentParameterMetadata</key>
+					<dict>
+						<key>INIntentParameterMetadataCapitalization</key>
+						<string>Sentences</string>
+						<key>INIntentParameterMetadataDefaultValueID</key>
+						<string>vdUI7Z</string>
+					</dict>
+					<key>INIntentParameterName</key>
+					<string>wordFromGroupedList</string>
+					<key>INIntentParameterPromptDialogs</key>
+					<array>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Configuration</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Please select word from the list:</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>rIw8So</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Primary</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>There are ${count} options matching ‘${wordFromGroupedList}’.</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>QV8w6d</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationIntroduction</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Just to confirm, you wanted ‘${wordFromGroupedList}’?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>kTRnJK</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Confirmation</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Please select word from the list:</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>4JM7Jd</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationSelection</string>
+						</dict>
+					</array>
+					<key>INIntentParameterRelationship</key>
+					<dict>
+						<key>INIntentParameterRelationshipParentName</key>
+						<string>groupingParameterType</string>
+						<key>INIntentParameterRelationshipPredicateName</key>
+						<string>EnumHasExactValue</string>
+						<key>INIntentParameterRelationshipPredicateValue</key>
+						<string>group</string>
+					</dict>
+					<key>INIntentParameterSupportsDynamicEnumeration</key>
+					<true/>
+					<key>INIntentParameterSupportsResolution</key>
+					<true/>
+					<key>INIntentParameterSupportsSearch</key>
+					<true/>
+					<key>INIntentParameterTag</key>
+					<integer>10</integer>
+					<key>INIntentParameterType</key>
+					<string>String</string>
 				</dict>
 			</array>
 			<key>INIntentResponse</key>
